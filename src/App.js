@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Provider } from "./context";
+import { Provider } from "./Contexts/global";
 import initialState from './initialState'
 import Routes from './routes'
 const ProviderComponent = props => {  

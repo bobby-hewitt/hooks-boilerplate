@@ -1,8 +1,7 @@
 import React, { useContext } from 'react'
-import Context from 'context'
+import Context from 'Contexts/global'
 const Home = (props) => {
-	const state = useContext(Context)
-	console.log(props.id)
+	const globalState = useContext(Context)
 	return (
 		<div className="homeContainer">
 			Home
